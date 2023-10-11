@@ -3,8 +3,8 @@ all:
 	@-mkdir -p build
 	@-mkdir -p bin
 	@-if [ -e build/main.o ]; then\
-      cp build/*.o .;\
-	  fi
+		cp build/*.o .;\
+	fi
 	g++ -c src/*.cpp
 	@-mv *.o build/
 	g++ -o bin/progam build/*.o
