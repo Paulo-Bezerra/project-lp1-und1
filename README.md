@@ -1,5 +1,5 @@
 # Projeto 1 - Sistema gerenciador de pedidos de uma lanchonete
-## um sistema de pedidos de lanches automático.
+## Um sistema de pedidos de lanches, automático.
 
 ### Funcionalidades
 A lanchonete vende sanduíches e sucos. O sistema tem dois tipos de usuários com as seguintes funcionalidades.
@@ -27,11 +27,11 @@ A lanchonete vende sanduíches e sucos. O sistema tem dois tipos de usuários co
 - Bash
 
 ### Pré-requisitos
-- Uma distribuíção Linux (o qualquer sistema operacional UNIX, acredito)
+- Uma distribuição Linux (o qualquer sistema operacional UNIX, acredito)
 - Compilador C++
 - Um shell/terminal para executar os comandos (bash)
 
 ### Instalação e execução
-Para compilar basta descompactar a pasta, abrir o terminal na pasta descompactada e executar o comando `make run`, caso queira apenas compilar basta executar apenas o comando `make`, o que criara um executável chamado “program”, para executa-lo, após a compilação, basta o digitar `./program` na raiz da pasta descompactada.
+Para compilar basta descompactar a pasta, abrir o terminal na pasta descompactada e executar o comando `make run`, caso queira apenas compilar basta executar apenas o comando `make`, o que criara um executável chamado “program”, para executá-lo, após a compilação, basta o digitar `./program` na raiz da pasta descompactada.
 
 Caso desejar apagar todos os binários e arquivos de objeto basta executar o comando `make clean` pelo terminal na raiz da pasta descompactada.
