@@ -1,10 +1,12 @@
 # Compila o codígo-fonte
 all:
-	mkdir -p build
-	-cp build/*.o .
+	@-mkdir -p build
+	@-mkdir -p bin
+	@-if [ -e build/main.o ]; then\
+      cp build/*.o .;\
+	  fi
 	g++ -c src/*.cpp
-	cp -r *.o build/
-	rm -r *.o
+	@-mv *.o build/
 	g++ -o bin/progam build/*.o
 	cp ./bin/progam .
 
@@ -13,4 +15,4 @@ run: all
 
 # Define a regra para limpar os arquivos gerados
 clean:
-	@rm -f build/* bin/* progam
+	@-rm -Rf build bin progam
