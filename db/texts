@@ -1,0 +1,255 @@
+<bar-main>
+.---------------------.
+| Lanchonete do Paulo |
+˙---------------------˙ 
+
+Qual o perfil de atendimento que deseja acessar?
+
+1. Cliente
+2. Gerente
+3. Sair
+
+Escolha uma das opções acima: 
+</bar-main>
+
+<client-main>
+.-------------------.
+| opções do cliente |
+˙-------------------˙ 
+
+O que deseja que deseja fazer?
+
+1. Listar todos os sanduíches cadastrados
+2. Listar todos os sucos cadastrados
+3. Escolher o lanche (sanduíche, suco)
+4. Calcular o valor do lanche
+5. Ver elementos do carrinho
+6. Excluir um item do carrinho
+7. Sair das opções do cliente
+
+Escolha uma das opções acima: 
+</client-main>
+
+<maneger-main>
+.-------------------------.
+| Opções de gerenciamento |
+˙-------------------------˙ 
+
+O que deseja que deseja fazer?
+
+1. Listar todos os sanduíches cadastrados
+2. Listar todos os sucos cadastrados
+3. Adicionar um novo sanduíche
+4. Adicionar um novo suco
+5. Alterar o preço de um sanduíche
+6. Alterar o preço de um suco
+7. Excluir um sanduíche
+8. Excluir um suco
+9. Sair das opções de gerenciamento
+
+Escolha uma das opções acima: 
+</maneger-main>
+
+<menu-order>
+.--------------------.
+| Escolha seu lanche |
+˙--------------------˙ 
+
+O que deseja que deseja pedir?
+
+1. Sanduíche
+2. Sucos
+3. Finalizar
+
+Escolha uma das opções acima: 
+</menu-order>
+
+<form-order-sandwich>
+.-----------------------.
+| Escolha seu sanduíche |
+˙-----------------------˙
+
+</form-order-sandwich>
+
+<form-order-juice>
+.------------------.
+| Escolha seu suco |
+˙------------------˙
+
+</form-order-juice>
+
+<form-delete>
+.-------------------------.
+| Confirmação de exclusão |
+˙-------------------------˙ 
+
+Deseja realmente excluir um item?
+
+1. Sim
+2. Não
+
+Escolha uma das opções acima para continuar:
+</form-delete>
+
+<form-register-sandwich>
+.---------------------------------------.
+| Formulário para cadastro do sanduíche |
+˙---------------------------------------˙ 
+
+Deseja cadastrar um sanduíche?
+
+1. Sim
+2. Não
+
+Escolha uma das opções acima para continuar:
+</form-register-sandwich>
+
+<form-register-juice>
+.----------------------------------.
+| Formulário para cadastro do suco |
+˙----------------------------------˙ 
+
+Deseja cadastrar um suco?
+
+1. Sim
+2. Não
+
+Escolha uma das opções acima para continuar:
+</form-register-juice>
+
+<form-alter-sandwich>
+.----------------------------------------.
+| Formulário para alteração do sanduíche |
+˙----------------------------------------˙ 
+
+Deseja cadastrar um sanduíche?
+
+1. Sim
+2. Não
+
+Escolha uma das opções acima para continuar:
+</form-alter-sandwich>
+
+<form-alter-juice>
+.-----------------------------------.
+| Formulário para alteração do suco |
+˙-----------------------------------˙ 
+
+Deseja cadastrar um sanduíche?
+
+1. Sim
+2. Não
+
+Escolha uma das opções acima para continuar:
+</form-alter-juice>
+
+<label-shutdown>
+.---------------.
+| Encerrando... |
+˙---------------˙
+</label-shutdown>
+
+<label-error>
+
+.-------------------.
+| Entrada inválida! |
+˙-------------------˙ 
+</label-error>
+
+<incorrect-password>
+
+.------------------.
+| Senha incorreta! |
+˙------------------˙ 
+</incorrect-password>
+
+<label-sandwiches>
+.------------------------.
+| Sanduíches disponíveis |
+˙------------------------˙
+
+</label-sandwiches>
+
+<label-juices>
+.-------------------.
+| Sucos disponíveis |
+˙-------------------˙ 
+
+</label-juices>
+
+<label-price>
+.-----------------.
+| Valor do lanche |
+˙-----------------˙
+
+</label-price>
+
+<label-cart>
+.-------------------.
+| Itens no carrinho |
+˙-------------------˙ 
+
+</label-cart>
+
+<label-added>
+
+.-------------------------.
+| Adicionado com sucesso! |
+˙-------------------------˙
+</label-added>
+
+<label-alter>
+
+.-----------------------.
+| Alterado com sucesso! |
+˙-----------------------˙
+</label-alter>
+
+<label-deleted>
+
+.-----------------------.
+| Excluído com sucesso! |
+˙-----------------------˙ 
+</label-deleted>
+
+<label-canceled>
+
+.---------------------.
+| Operação cancelada! |
+˙---------------------˙ 
+</label-canceled>
+
+<label-successful>
+
+.------------------------.
+| Operação bem-sucedida! |
+˙------------------------˙
+</label-successful>
+
+<label-sandwich-exist>
+
+.--------------------------------------------.
+| Esse sanduíche já existe na base de dados! |
+˙--------------------------------------------˙
+</label-sandwich-exist>
+
+<label-sandwich-not-exist>
+
+.---------------------------------------------.
+| Esse sanduíche não existe na base de dados! |
+˙---------------------------------------------˙
+</label-sandwich-not-exist>
+
+<label-juice-exist>
+
+.---------------------------------------.
+| Esse suco já existe na base de dados! |
+˙---------------------------------------˙
+</label-juice-exist>
+
+<label-juice-not-exist>
+
+.---------------------------------------.
+| Esse suco já existe na base de dados! |
+˙---------------------------------------˙
+</label-juice-not-exist>
